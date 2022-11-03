@@ -1,0 +1,19 @@
+package com.question3;
+//................Declaring a class.............
+class Test
+
+{
+//................main method......................
+public static void main(String[] args)
+
+{
+//................creating object of class piggie bank............
+	PiggieBank a = new PiggieBank(0);
+	PiggieBank b = new PiggieBank(12);
+//............display amount.............
+a.displayAmount();
+
+b.displayAmount();
+
+}//..............end of main .......................
+}//.....................end of class.....................
