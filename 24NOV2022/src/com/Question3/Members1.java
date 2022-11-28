@@ -25,7 +25,6 @@ public class Members1 {
 	m.phone_number = "7832341293";
 	m.address= "Bhopal [M.P]";
 	m.department = "Civil";
-
 	
 	System.out.println("----------Manager Details---------");
 	System.out.println("Name :"+m.name);
@@ -35,8 +34,5 @@ public class Members1 {
 	System.out.print("Salary :");
 	m.print_salary(55000);
 	System.out.println("Department :"+m.department);
-	
-	
-
-}
+	}
 }
