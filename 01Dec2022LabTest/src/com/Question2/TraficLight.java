@@ -18,15 +18,19 @@ public class TraficLight extends Thread{
 				Thread A = new Thread();
 				Thread B = new Thread();
 				Thread C = new Thread();
+				System.out.println("                       ");
+				System.out.println("           *******************WELCOME TO TROFICSIGNALS*********************     ");
+				System.out.println("                       ");
 				System.out.println("-----------------------------------------------------");
 				System.out.println("                 RED LIGHT IS ON                     ");
 				System.out.println("-----------------------------------------------------");
 				A.start();
 				try {
 					Thread.sleep(3000);
-					System.out.println("_________________________________________");
 					System.out.println("RED LIGHT IS OFF");
-					System.out.println("GREEN LIGHT IS ON");
+					System.out.println("-----------------------------------------------------");
+					System.out.println("                 GREEN LIGHT IS ON                   ");
+					System.out.println("-----------------------------------------------------");
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -34,9 +38,8 @@ public class TraficLight extends Thread{
 				B.start();
 				try {
 					Thread.sleep(8000);
-					System.out.println("_________________________________________");
-					System.out.println("GREEN LIGHT IS OFF");
-					System.out.println("YELLOW LIGHT IS ON");
+					System.out.println("                 YELLOW LIGHT IS ON                  ");
+					System.out.println("-----------------------------------------------------");
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -44,8 +47,9 @@ public class TraficLight extends Thread{
 				C.start();
 				try {
 					Thread.sleep(10000);
-					System.out.println("_________________________________________");
-					System.out.println("RED LIGHT IS ON");
+				
+					System.out.println("                   RED LIGHT IS ON                   ");
+					System.out.println("-----------------------------------------------------");
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
